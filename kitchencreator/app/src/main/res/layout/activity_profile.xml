@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kitchencreator.kitchencreator.Accountactivity.profile"
+    android:background="@drawable/background3">
+
+
+    <ImageView
+        android:id="@+id/formLogo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_kc" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/formLogo"
+
+        android:id="@+id/scrollView"
+
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/trans_white"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/userfullname"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:drawablePadding="5dp"
+            android:hint="Full name"
+            android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/userphoneno"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:hint="Enter phone number"
+                android:inputType="number"
+                android:textSize="14sp" />
+        <EditText
+            android:id="@+id/useraddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:hint="Enter Full address"
+            android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/userpincode"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:hint="Enter Pincode"
+                android:inputType="number"
+                android:textSize="14sp" />
+        <EditText
+            android:id="@+id/userCity"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:hint="City"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/userstate"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:hint="State"
+            android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/userCountry"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:hint="Country"
+                android:textSize="14sp" />
+            <Button
+                android:layout_below="@id/scrollView"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_grey"
+                android:text="Next"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/datasave"
+                android:onClick="detailsave"
+                />
+
+    </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

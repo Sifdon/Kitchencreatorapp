@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFB74D</color>
+    <color name="colorPrimaryDark">#FFA000</color>
+    <color name="colorAccent">#FF2259</color>
+    <color name="capehoney">#FFB74D</color>
+    <color name="seabuckthorn">#FFA000</color>
+    <color name="white">#ffffff</color>
+    <color name="sherpablue">#013243</color>
+    <color name="pumice">#6C7A89</color>
+    <color name="over">#fff9c4</color>
+    <color name="o">#E0E0E0</color>
+
+
+    </resources>
